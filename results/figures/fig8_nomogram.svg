@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 700" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333">
+<rect width="720" height="700" fill="#fafafa"/>
+<text x="360.0" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#1a237e">盆腔放疗 Grade≥2 白细胞减少影像组学诺莫图 (Nomogram)</text>
+<text x="360.0" y="50" text-anchor="middle" font-size="11" fill="#555">M3 模型: DependenceVariance (GLCM) + MeshVolume (Shape) | n=60, 事件=15 | AUC=0.793, 校正 AUC=0.695</text>
+<line x1="180" y1="90" x2="660" y2="90" stroke="#444" stroke-width="2"/>
+<line x1="180.0" y1="85.0" x2="180.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="180.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">0</text>
+<line x1="228.0" y1="85.0" x2="228.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="228.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">10</text>
+<line x1="276.0" y1="85.0" x2="276.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="276.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">20</text>
+<line x1="324.0" y1="85.0" x2="324.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="324.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">30</text>
+<line x1="372.0" y1="85.0" x2="372.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="372.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">40</text>
+<line x1="420.0" y1="85.0" x2="420.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="420.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">50</text>
+<line x1="468.0" y1="85.0" x2="468.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="468.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">60</text>
+<line x1="516.0" y1="85.0" x2="516.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="516.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">70</text>
+<line x1="564.0" y1="85.0" x2="564.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="564.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">80</text>
+<line x1="612.0" y1="85.0" x2="612.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="612.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">90</text>
+<line x1="660.0" y1="85.0" x2="660.0" y2="95.0" stroke="#444" stroke-width="1.5"/>
+<text x="660.0" y="108.0" text-anchor="middle" font-size="10" fill="#333">100</text>
+<text x="420.0" y="78" text-anchor="middle" font-size="12" font-weight="600" fill="#222">Points</text>
+<text x="170" y="94" text-anchor="end" font-size="10" fill="#888">0</text>
+<text x="670" y="94" text-anchor="start" font-size="10" fill="#888">100</text>
+<line x1="180" y1="170" x2="660" y2="170" stroke="#1976d2" stroke-width="2"/>
+<line x1="660.0" y1="165.0" x2="660.0" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="660.0" y="188.0" text-anchor="middle" font-size="10" fill="#333">6.1</text>
+<line x1="594.1" y1="165.0" x2="594.1" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="594.1" y="188.0" text-anchor="middle" font-size="10" fill="#333">7.5</text>
+<line x1="523.4" y1="165.0" x2="523.4" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="523.4" y="188.0" text-anchor="middle" font-size="10" fill="#333">9</text>
+<line x1="452.7" y1="165.0" x2="452.7" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="452.7" y="188.0" text-anchor="middle" font-size="10" fill="#333">10.5</text>
+<line x1="382.1" y1="165.0" x2="382.1" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="382.1" y="188.0" text-anchor="middle" font-size="10" fill="#333">12</text>
+<line x1="311.4" y1="165.0" x2="311.4" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="311.4" y="188.0" text-anchor="middle" font-size="10" fill="#333">13.5</text>
+<line x1="240.8" y1="165.0" x2="240.8" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="240.8" y="188.0" text-anchor="middle" font-size="10" fill="#333">15</text>
+<line x1="180.0" y1="165.0" x2="180.0" y2="175.0" stroke="#1976d2" stroke-width="1.5"/>
+<text x="180.0" y="188.0" text-anchor="middle" font-size="10" fill="#333">16.3</text>
+<text x="420.0" y="158" text-anchor="middle" font-size="12" font-weight="600" fill="#222">DependenceVariance (GLCM)</text>
+<text x="170" y="174" text-anchor="end" font-size="9" fill="#1976d2">↓高风险</text>
+<text x="670" y="174" text-anchor="start" font-size="9" fill="#1976d2">低风险↑</text>
+<line x1="180" y1="250" x2="660" y2="250" stroke="#d32f2f" stroke-width="2"/>
+<line x1="659.4" y1="245.0" x2="659.4" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="659.4" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.01</text>
+<line x1="578.4" y1="245.0" x2="578.4" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="578.4" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.15</text>
+<line x1="491.5" y1="245.0" x2="491.5" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="491.5" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.30</text>
+<line x1="404.7" y1="245.0" x2="404.7" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="404.7" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.45</text>
+<line x1="317.8" y1="245.0" x2="317.8" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="317.8" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.60</text>
+<line x1="231.0" y1="245.0" x2="231.0" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="231.0" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.75</text>
+<line x1="178.8" y1="245.0" x2="178.8" y2="255.0" stroke="#d32f2f" stroke-width="1.5"/>
+<text x="178.8" y="268.0" text-anchor="middle" font-size="10" fill="#333">1.84</text>
+<text x="420.0" y="238" text-anchor="middle" font-size="12" font-weight="600" fill="#222">MeshVolume (×10⁶)</text>
+<text x="170" y="254" text-anchor="end" font-size="9" fill="#d32f2f">↓高风险</text>
+<text x="670" y="254" text-anchor="start" font-size="9" fill="#d32f2f">低风险↑</text>
+<line x1="180" y1="330" x2="660" y2="330" stroke="#444" stroke-width="2"/>
+<line x1="180.0" y1="325.0" x2="180.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="180.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">0</text>
+<line x1="228.0" y1="325.0" x2="228.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="228.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">20</text>
+<line x1="276.0" y1="325.0" x2="276.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="276.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">40</text>
+<line x1="324.0" y1="325.0" x2="324.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="324.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">60</text>
+<line x1="372.0" y1="325.0" x2="372.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="372.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">80</text>
+<line x1="420.0" y1="325.0" x2="420.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="420.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">100</text>
+<line x1="468.0" y1="325.0" x2="468.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="468.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">120</text>
+<line x1="516.0" y1="325.0" x2="516.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="516.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">140</text>
+<line x1="564.0" y1="325.0" x2="564.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="564.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">160</text>
+<line x1="612.0" y1="325.0" x2="612.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="612.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">180</text>
+<line x1="660.0" y1="325.0" x2="660.0" y2="335.0" stroke="#444" stroke-width="1.5"/>
+<text x="660.0" y="348.0" text-anchor="middle" font-size="10" fill="#333">200</text>
+<text x="420.0" y="318" text-anchor="middle" font-size="12" font-weight="600" fill="#222">Total Points</text>
+<text x="170" y="334" text-anchor="end" font-size="10" fill="#888">0</text>
+<text x="670" y="334" text-anchor="start" font-size="10" fill="#888">200</text>
+<line x1="180" y1="410" x2="660" y2="410" stroke="#388e3c" stroke-width="2"/>
+<line x1="205.8" y1="405.0" x2="205.8" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="205.8" y="428.0" text-anchor="middle" font-size="10" fill="#333">1%</text>
+<line x1="342.7" y1="405.0" x2="342.7" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="342.7" y="428.0" text-anchor="middle" font-size="10" fill="#333">5%</text>
+<line x1="404.6" y1="405.0" x2="404.6" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="404.6" y="428.0" text-anchor="middle" font-size="10" fill="#333">10</text>
+<line x1="471.9" y1="405.0" x2="471.9" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="471.9" y="428.0" text-anchor="middle" font-size="10" fill="#333">20</text>
+<line x1="516.5" y1="405.0" x2="516.5" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="516.5" y="428.0" text-anchor="middle" font-size="10" fill="#333">30</text>
+<line x1="553.2" y1="405.0" x2="553.2" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="553.2" y="428.0" text-anchor="middle" font-size="10" fill="#333">40</text>
+<line x1="586.8" y1="405.0" x2="586.8" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="586.8" y="428.0" text-anchor="middle" font-size="10" fill="#333">50</text>
+<line x1="620.4" y1="405.0" x2="620.4" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="620.4" y="428.0" text-anchor="middle" font-size="10" fill="#333">60</text>
+<line x1="657.0" y1="405.0" x2="657.0" y2="415.0" stroke="#388e3c" stroke-width="1.5"/>
+<text x="657.0" y="428.0" text-anchor="middle" font-size="10" fill="#333">70</text>
+<text x="420.0" y="398" text-anchor="middle" font-size="12" font-weight="600" fill="#222">Predicted Probability</text>
+<line x1="150" y1="90" x2="150" y2="410" stroke="#bbb" stroke-dasharray="2 3"/>
+<line x1="690" y1="90" x2="690" y2="410" stroke="#bbb" stroke-dasharray="2 3"/>
+<text x="360.0" y="455" text-anchor="middle" font-size="12" font-weight="600" fill="#1a237e">使用示例 (Typical case)</text>
+<text x="360.0" y="478" text-anchor="middle" font-size="11" fill="#444">假设患者: P053 (非事件) | DV=9.59 → 66 pts | MV=1.081×10⁶ → 91 pts | Total=157 pts → P(Grade≥2 WBC↓) ≈ 43.4%</text>
+<text x="360.0" y="510" text-anchor="middle" font-size="11" fill="#666">β 系数 (z-score 标准化后): β0 = -1.555, βDV = -0.468, βMV = -1.167</text>
+<text x="360.0" y="528" text-anchor="middle" font-size="10" fill="#888">标准化参数: DV μ=10.225, σ=1.967 | MV μ=1292587, σ=217217</text>
+<rect x="40" y="550" width="640" height="120" fill="#fff3e0" stroke="#ffb74d" stroke-width="1" rx="4"/>
+<text x="55" y="572" font-size="12" font-weight="700" fill="#e65100">⚠ 局限性 (Limitations)</text>
+<text x="55" y="595" font-size="10" fill="#333">• 样本量小 (n=60, 事件 15), LASSO 约束使模型骨架仅 2 特征, 但 EPV=7.5 仍偏紧</text>
+<text x="55" y="609" font-size="10" fill="#333">• 内部 Bootstrap 乐观校正 (B=500): 表观 AUC 0.793 → 校正 AUC 0.695 (optimism=0.098)</text>
+<text x="55" y="623" font-size="10" fill="#333">• 缺乏外部验证: UCLA 同题研究 (152 例, AUC 0.71-0.77) 可作锚点但人群/方案不同</text>
+<text x="55" y="637" font-size="10" fill="#333">• 影像组学特征依赖 PyRadiomics 提取参数 (bin width/归一化), 跨中心可复现性待证</text>
+<text x="55" y="651" font-size="10" fill="#333">• 仅做"是否发生"二分类, 未区分严重程度 (Grade 2/3) 与时间-事件终点 (kinetics)</text>
+<text x="55" y="665" font-size="10" fill="#333">• Nomogram 的概率刻度基于 60 例样本 LP 实际范围, 外推时需谨慎</text>
+</svg>

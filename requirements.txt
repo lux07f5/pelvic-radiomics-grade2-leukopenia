@@ -1,0 +1,4 @@
+# Python dependencies for pelvic-radiomics-grade2-leukopenia
+# Tested with Python 3.7+
+
+openpyxl>=3.0.0    # Excel file I/O for master tables

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated methodology, please cite the published paper below."
+title: "Planning CT Radiomics Model for Grade ≥ 2 Leukopenia After Pelvic Radiotherapy Without Concurrent Chemotherapy"
+type: software
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+url: "https://github.com/[username]/pelvic-radiomics-grade2-leukopenia"
+repository-code: "https://github.com/[username]/pelvic-radiomics-grade2-leukopenia"
+keywords:
+  - radiomics
+  - radiation-oncology
+  - pelvic-cancer
+  - leukopenia
+  - bone-marrow
+  - prediction-model
+  - LASSO
+  - bootstrap-validation
+  - IMRaD
+authors:
+  - family-names: "[Author Family Name]"
+    given-names: "[Author Given Name]"
+    affiliation: "[Institution]"
+    email: "[corresponding author email]"
+preferred-citation:
+  type: article
+  title: "A Planning CT Radiomics Model for Predicting Grade ≥ 2 Leukopenia After Pelvic Radiotherapy Without Concurrent Chemotherapy"
+  journal: "Radiotherapy and Oncology"
+  year: 2026
+  # DOI and PMID to be added after publication
+  # doi: "10.1016/j.radonc.2026.XX.XXX"

@@ -1,0 +1,129 @@
+# ============================================================
+# .gitignore for pelvic-radiomics-grade2-leukopenia
+# ============================================================
+# This repository contains de-identified summary data and analysis
+# code only. The following rules PREVENT accidental upload of
+# protected health information (PHI) or any individual-level data.
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm/
+
+# --- R ---
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+.Renviron
+
+# --- IDEs / Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# PHI DEFENSE (CRITICAL — do not remove these rules)
+# ============================================================
+# These patterns are designed to FAIL the git add command if
+# any individual-level patient file is mistakenly placed here.
+
+# Block any file with "patient" in the name (case-insensitive)
+**/patient*.csv
+**/patient*.xlsx
+**/patient*.json
+**/patient*.tsv
+**/Patient*.csv
+**/Patient*.xlsx
+**/Patient*.json
+
+# Block any "merged" or "baseline" data files (these contain patient names as keys)
+**/merged*.csv
+**/merged*.xlsx
+**/merged*.json
+**/baseline*.csv
+**/baseline*.xlsx
+**/baseline*.json
+
+# Block raw input data files
+**/input_data*.json
+**/data_with_patient_id*
+**/name_mapping*
+**/patient_name*
+
+# Block raw DICOM and dose files
+**/*.dcm
+**/*.DCM
+**/dose*.dcm
+**/rtplan*
+**/rtstruct*
+**/rtdose*
+
+# Block any file that might contain names (Chinese name patterns)
+**/*姓名*
+**/*住院号*
+**/*身份证*
+
+# Block any workbuddy / memory files (work logs may contain PHI)
+.workbuddy/
+*.workbuddy*
+
+# Block any "Results manuscript" draft (may mention excluded patients by name)
+*Results_文字稿*
+*IRB_申报*
+
+# Block any intermediate or backup files
+**/*.bak
+**/*.tmp
+**/*.swp
+**/*_DEID.bak
+**/backup/
+
+# Block the helper script used to de-identify (it contains the name→PID map)
+_deid_helper.py
+_deid_*.py
+
+# ============================================================
+# Allowed exceptions (these files ARE in the repo, do not block)
+# ============================================================
+# !data/nomogram_params.json
+# !data/roc_curves.json
+# !data/model_comparison*.json
+# !data/nri_idi*.json
+# !data/ambiguous_resolved.json
+# !data/dosi_group_comparison*.csv
+# (All other .json/.csv files in data/ are explicitly listed as
+# allowed; the broad "**/*.json" rule below does NOT block these
+# because the PHI-defense patterns above are more specific and
+# these files don't match them.)
