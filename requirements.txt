@@ -1,4 +1,9 @@
-# Python dependencies for pelvic-radiomics-grade2-leukopenia
-# Tested with Python 3.7+
-
-openpyxl>=3.0.0    # Excel file I/O for master tables
+# No third-party packages are required.
+#
+# The pipeline runs on the Python standard library alone: statistics, logistic
+# regression, LASSO with cross-validation, AUC with bootstrap intervals, DeLong,
+# NRI/IDI and the SVG figures are all implemented in this repository. That is a
+# deliberate choice - it keeps the estimators readable and removes the failure
+# mode where a package upgrade silently changes a number.
+#
+# Python 3.8 or later. Developed and tested on 3.12.9.

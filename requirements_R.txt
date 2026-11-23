@@ -1,7 +1,0 @@
-# R dependencies for pelvic-radiomics-grade2-leukopenia
-# Tested with R 4.0+
-
-readxl   # Excel file I/O
-glmnet   # LASSO logistic regression
-pROC     # DeLong test, ROC curves
-rms      # Calibration, Hosmer-Lemeshow test

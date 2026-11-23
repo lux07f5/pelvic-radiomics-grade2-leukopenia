@@ -1,31 +1,44 @@
 cff-version: 1.2.0
-message: "If you use this software or the associated methodology, please cite the published paper below."
-title: "Planning CT Radiomics Model for Grade ≥ 2 Leukopenia After Pelvic Radiotherapy Without Concurrent Chemotherapy"
+message: "If you use this code, please cite the article below, or this repository if the article is not yet published."
+title: "Analysis code for: Pelvic bone volume predicts grade 2 or worse leukopenia after pelvic radiotherapy alone, but radiomic texture analysis does not"
 type: software
-version: 1.0.0
-date-released: 2026-10-13
+version: 2.0.0
+date-released: 2026-11-19
 license: MIT
-url: "https://github.com/[username]/pelvic-radiomics-grade2-leukopenia"
-repository-code: "https://github.com/[username]/pelvic-radiomics-grade2-leukopenia"
+repository-code: "https://github.com/lux07f5/pelvic-radiomics-grade2-leukopenia"
+url: "https://github.com/lux07f5/pelvic-radiomics-grade2-leukopenia"
 keywords:
   - radiomics
-  - radiation-oncology
-  - pelvic-cancer
+  - radiation oncology
+  - pelvic cancer
   - leukopenia
-  - bone-marrow
-  - prediction-model
+  - bone marrow
   - LASSO
-  - bootstrap-validation
-  - IMRaD
+  - calibration
+  - decision curve analysis
 authors:
-  - family-names: "[Author Family Name]"
-    given-names: "[Author Given Name]"
-    affiliation: "[Institution]"
-    email: "[corresponding author email]"
+  - family-names: Lu
+    given-names: X
+    affiliation: "Department of Radiation Oncology, Suzhou Ninth People's Hospital, Suzhou, Jiangsu, China"
+  - family-names: Liu
+    given-names: J
+    affiliation: "Department of Radiation Oncology, Jiangyin Hospital Affiliated to Nantong University, Jiangyin, Jiangsu, China"
+  - family-names: Du
+    given-names: M
+    affiliation: "Department of Radiation Oncology, Suzhou Ninth People's Hospital, Suzhou, Jiangsu, China"
+  - family-names: Li
+    given-names: Z
+    affiliation: "Department of Radiation Oncology, Suzhou Ninth People's Hospital, Suzhou, Jiangsu, China"
+  - family-names: Hong
+    given-names: Y
+    affiliation: "Department of Radiation Oncology, Suzhou Ninth People's Hospital, Suzhou, Jiangsu, China"
+  - family-names: Zhang
+    given-names: HL
+    affiliation: "Department of Radiation Oncology, Suzhou Ninth People's Hospital, Suzhou, Jiangsu, China"
+    email: zhl520@163.com
 preferred-citation:
   type: article
-  title: "A Planning CT Radiomics Model for Predicting Grade ≥ 2 Leukopenia After Pelvic Radiotherapy Without Concurrent Chemotherapy"
+  title: "Pelvic bone volume predicts grade 2 or worse leukopenia after pelvic radiotherapy alone, but radiomic texture analysis does not"
   journal: "Radiotherapy and Oncology"
   year: 2026
-  # DOI and PMID to be added after publication
-  # doi: "10.1016/j.radonc.2026.XX.XXX"
+  # DOI and volume/page numbers to be added after acceptance
